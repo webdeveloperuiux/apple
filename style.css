@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: 500vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.747);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 250px;
+    position: fixed;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.navbar i{
+    color: white;
+}
+
+.hero-section{
+    width: 100%;
+    height: 625px;
+    background-image: url(./images/napolean.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 300px;
+    text-align: center;
+}
+
+.hero-section h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.hero-section h1{
+    font-size: 65px;
+    color: rgb(203, 29, 29);
+    font-weight: 900;
+}
+
+#p1{
+    font-size: 25px;
+}
+
+#p2{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.section2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* background-color: rgb(244, 244, 244); */
+    background-image: url(./images/triple.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.section2 h1{
+    font-size: 55px;
+    /* margin-top: 20px; */
+    font-weight: 600;
+}
+
+.section2 p{
+    margin-top: 10px;
+}
+
+#p3{
+    font-size: 32px;
+}
+
+#p4{
+    font-size: 18px;
+}
+
+#p5{
+    font-size: 20px;
+}
+
+.section3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/hero.jpg);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 500px;
+    color: rgb(218, 218, 218);
+}
+
+.section3 h1{
+    font-size: 35px;
+}
+
+.section3 h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.section3 h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.section3 span{
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 650px;
+}
+
+.section3 span button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.section4{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+
+.box4{
+    width: 750px;
+    height: 575px;
+}
+
+.box4:first-child{
+    background-image: url(./images/black\ iphone.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box4:nth-child(2){
+    background-image: url(./images/macbook.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box4:nth-child(3){
+    background-image: url(./images/logo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box4:nth-child(4){
+   background-color: rgb(250, 250, 250);
+}
+
+.box4:nth-child(5){
+    background-image: url(./images/white\ ipad.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box4:nth-child(6){
+    background-image: url(./images/twoiphone.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section5{
+    width: 100%;
+    height: 85vh;
+    text-align: start;
+    padding-left: 280px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.section5 hr{
+    margin-top: 30px;
+    width: 75%;
+}
+
+.footer{
+    width: 100%;
+    /* height: 320px; */
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding-inline: 280px;
+}
+
+.footer ul{
+    font-size: 12px;
+}
+
+#li-1{
+    font-weight: 600;
+    color: black;
+}
+
+.footer ul li{
+    list-style: none;
+    margin-top: 10px ;
+}
+
+.bottom-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 280px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+#hr1{
+    margin-top: 10px;
+}
+
+.bottomspan{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#lastspan{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 150px;
+    margin-block: 10px;
+}
+
+#lastspan hr{
+    width: 1px;
+    height: 15px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text a{
+    text-decoration: none;
+    color: blue;
+}
+
+.text p, span{
+    margin-top: 10px;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.text1 a{
+    text-decoration: none;
+    color: rgb(64, 64, 251);
+}
+
+.text1 p, span{
+    margin-top: 10px;
+}
+
+/* Responsive CSS */
+
+
+
+@media  (max-width: 768px) {
+
+    .main-container{
+        width: 100%;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 40px;
+        padding-inline: 10px;
+        
+    }
+    .navbar a{
+        display: none;
+    }
+
+
+
+    
+}
